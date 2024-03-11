@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shojumaru&display=swap');
+        body{
+            font-family: "Shojumaru", system-ui;
+            margin: 0;
+        }
+        header{
+            background-image: url(./Bg1.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        header>div{
+            display: flex;
+            align-items: center;
+        }
+        header>div:nth-child(1){
+            color: white;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+        }
+        #centernav{
+            display: flex;
+            background-color: rgb(23, 23, 23);
+            color: white;
+            justify-content: space-evenly;
+            gap: 35px;
+            font-size: 8px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-left: 250px;
+        }
+        #connect{
+           background-color: orange;
+           margin-left: auto;
+           margin-right: 30px;
+           font-size: 8px;
+           padding:9px;
+           border-radius: 10px;
+        }
+        header>p{
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 120px;
+        }
+        #boot{
+            height: 14vh;
+        }
+        section{
+            margin-top: -20px;
+            background-color: black;
+            height: 60vh;
+        }
+        section>div{
+            display: flex;
+           justify-content: space-between;
+        }
+        section>div>h1{
+            color: red;
+            margin-left: 120px;
+        }
+        #img2{
+            width: 300px;
+            margin-right: 100px;
+        }
+        #para{
+            color: white;
+            font-size: 10px;
+        }
+        section>button{
+            background-color: orange;
+            border: none;
+            padding: 8px;
+            margin-left: 120px;
+            color: white;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+        #roadMap{
+            background-image: url(./BG-2.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+            margin-top: -25px;
+            height: 70vh;
+        }
+        #roadMap>h1{
+            color: red;
+            text-align: center;
+        }
+        #roadMap>div{
+            display: flex;
+            margin-top: 100px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #roadMap>div img{
+            width: 170px;
+            border: 1px solid red;
+            border-radius: 10px;
+        }
+        #faq{
+            background-color: rgb(19, 19, 19);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 60vh;
+        }
+        #faq img{
+            width: 350px;
+        }
+        #faq>div{
+           display: block;
+           color: red;
+        }
+        #faq>div>p{
+            color: white;
+            background-color: black;
+            font-size: 13px;
+            border: 1px solid red;
+            padding: 14px;
+            border-radius: 10px;
+        }
+        #faq2{
+            font-size: 6px;
+            border: 1px sol black;
+            background-color: rgb(44, 44, 44);
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 9px;
+        }
+        footer{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 30ch;
+        }
+        footer>h3{
+            color: red;
+        }
+        footer>div{
+            color: white;
+            font-size: 8px;
+            display: flex;
+            align-items: center;
+            gap: 5%;
+        }
+        footer>div>img{
+            margin-top: 30px;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="image 3.png" alt="first-logo" class="logo">
+           <div>Savior</div>
+           <nav>
+           <div id="centernav">
+            <span>Home</span>
+            <span>IDO</span>
+            <span>TakeNomics</span>
+            <span>RoadMap</span>
+            <span>coming soon</span>
+        </div>
+    </nav>
+            <div id="connect">connect wallet</div>
+        </div>
+        <p>WHERE BLOCKCHAIN HEROES THRIVE, RESCUING <br>DREAMS, ELEVATING FORTUNES</p>
+        <div id="boot"></div>
+    </header>
+    <section>
+        <div>
+            <h1>INTRODUCTION <br><span id="para">we've all been in mud once and now we've <br>decided to fight it out. <br> Pay tributte to those pionerrs of web3 and the <br> warriors who dedicaeted therir love to the <br> block chain, save the lucky future join us to <br>save the future! <br> our mission is to empower everyone to share <br> wealth and suceed <br> read more...</span></h1>
+            <img src="Image 2.png" alt="img2" id="img2" style="float: right;">
+        </div>
+        <button>Documents</button>
+    </section>
+    <div id="roadMap">
+        <h1>Road Map</h1>
+        <div>
+            <img src="card_1.png-1.png" alt="">
+            <img src="card_1.png-2.png" alt="">
+            <img src="card_1.png-3.png" alt="">
+            <img src="card_1.png.png" alt="">
+        </div>
+    </div>
+    <div id="faq">
+        <img src="image 3.png" alt="">
+        <div>
+           <h1>FAQ</h1>
+           <p>1 WHY CHOOSE "Savior"? &nbsp; &gt;</p>
+           <p>2 WHY IS THE IDO SURATION SO LONG? &nbsp; &gt;</p>
+           <p>3 WHEN WILL TRADING GO LIVE? &nbsp; &gt;</p>
+           <p>4 WHEN CAN WE CLAIM THE TOKENS&nbsp; &gt; <br> <br><span id="faq2">After the IDO concludes, you can claim the tockens on our official website</span></p>
+        </div>
+    </div>
+    <footer>
+        <img src="Logo Savior red Footer.png" alt="">
+        <h3>SITEMAP</h3>
+        <div>
+            <span>HOME</span>
+            <span>IDO</span>
+            <span>TOKENOMICS</span>
+            <span>ROADMAP</span>
+            <span>WHITEPAPER</span>
+            <span>PLEDGE</span>
+            <span>NFT</span>
+            <span>GAMES</span>
+        </div>
+        <div>
+            <img src="Link ⏵ icon-twitter.6b3c178f26a209f13bcced7e816ba143.svg.png" alt="twitter">
+            <img src="icon-telegram.3e7b16fc68b2a61fe78c02f92f7a45f6.svg.png" alt="telegram">
+            <img src="clarity_email-solid.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
